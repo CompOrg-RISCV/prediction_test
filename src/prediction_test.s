@@ -34,7 +34,7 @@ FIRST_TEST:
     nop                         // prediction = cycle 3, no prediction = cycle 5
     nop                         // prediction = cycle 4, no prediction = cycle 6
     nop                         // prediction = cycle 5, no prediction = cycle 7
- //   halt                        // prediction = cycle 6, no prediction = cycle 8, x5 = 0
+    halt                        // prediction = cycle 6, no prediction = cycle 8, x5 = 0
     nop
     nop
     nop
