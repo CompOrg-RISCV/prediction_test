@@ -61,7 +61,7 @@ LOOP:
     nop
     nop                         // x3 should equal to number of loops, 10
     nop                         // x4 should equal to 1, only execute once after last bne
-    halt                        // predicted cycle count = 52 cycles, if no prediction, 69 or 72 cycles
+    halt                        // predicted cycle count = 52 cycles, if no prediction, 70 cycles
     nop
     nop
     nop
